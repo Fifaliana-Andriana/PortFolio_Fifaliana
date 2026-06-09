@@ -7,7 +7,7 @@ function Header() {
       <Navbar></Navbar>
       <div className="header">
         <img
-          src="../public/Sans titre.png"
+          src="/Profil.jpg"
           alt="Fifaliana"
           className="Profil"
         />

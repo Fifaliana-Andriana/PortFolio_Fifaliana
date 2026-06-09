@@ -256,3 +256,11 @@ a{
 .mobileMenu a {
   text-decoration: none;
 }
+
+
+@media screen and (max-width: 768px ) {
+  .Profil{
+    width: 200px;
+    height: 200px;
+  }
+}

@@ -3,15 +3,15 @@ import Navbar from "../component/Navbar";
 
 function Header() {
   return (
-    <div>
+    <div className="posRel z-0">
       <Navbar></Navbar>
-      <div className="header">
-        <img
-          src="/Profil.jpg"
-          alt="Fifaliana"
-          className="Profil"
-        />
-        <h1>My name is Fifaliana.</h1>
+      <div id="Home" className="header">
+        <img src="/Profil.jpg" alt="Fifaliana" className="Profil" />
+        <h1>ANDRIANJAFIMALALA Feno Fifaliana</h1>
+        <p>Développeur Web Full Stack — PHP / Laravel / MySQL</p>
+        <a href="#Contact" class="btn">
+          Voir mes contact
+        </a>
       </div>
     </div>
   );

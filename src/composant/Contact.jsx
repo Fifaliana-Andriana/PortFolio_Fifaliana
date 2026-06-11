@@ -2,8 +2,14 @@
 
 function Contact() {
   return (
-    <div>
-      <div className="w100prc bgGreen">Contact</div>
+    <div className="w100prc bgBlack">
+      <div>
+        <a href="mailto:andrianjafyfifaliana@gmail.com" target="_blank">
+          E-mail
+        </a>
+      </div>
+
+      <p>© 2026 — ANDRIANJAFIMALALA Feno Fifaliana</p>
     </div>
   );
 }

@@ -7,10 +7,10 @@ function Respstyle() {
   const [openMenu, setOpenMenu] = useState(false);
 
   const menus = [
-    { nom: "Home", href: "/Home" },
-    { nom: "About", href: "/About" },
-    { nom: "Project", href: "/Project" },
-    { nom: "Contact", href: "/Contact" },
+    { nom: "About", href: "#About" },
+    { nom: "Competence", href: "#Competence" },
+    { nom: "Project", href: "#Project" },
+    { nom: "Contact", href: "#Contact" },
   ];
 
   useEffect(() => {

@@ -110,21 +110,27 @@ code {
   background: var(--code-bg);
 }
 
-
 .w4cm {
   width: 4cm;
 }
-.w25prc{
+.w5cm{
+  width: 5cm;
+}
+.w25prc {
   width: 25%;
 }
-.w50prc{
+.w50prc {
   width: 50%;
 }
 .w70prc {
   width: 70%;
 }
-.w100prc{
+.w100prc {
   width: 100%;
+}
+
+.mBottom{
+  margin-bottom: 10px;
 }
 
 nav {
@@ -133,11 +139,11 @@ nav {
   backdrop-filter: blur(30px);
 }
 
-a{
+a {
   color: white;
 }
 
-.displayB{
+.displayB {
   display: block;
 }
 .displayN {
@@ -146,16 +152,16 @@ a{
 .displayF {
   display: flex;
 }
-.flexDirC{
+.flexDirC {
   flex-direction: column;
 }
-.justifyCS{
+.justifyCS {
   justify-content: start;
 }
 .justifyCC {
   justify-content: center;
 }
-.justifyCE{
+.justifyCE {
   justify-content: end;
 }
 .justifyCSB {
@@ -164,13 +170,13 @@ a{
 .justifyCSE {
   justify-content: space-evenly;
 }
-.alignIS{
+.alignIS {
   align-items: start;
 }
 .alignIC {
   align-items: center;
 }
-.alignIE{
+.alignIE {
   align-items: end;
 }
 .listStyleN {
@@ -179,7 +185,7 @@ a{
 .textDecoN {
   text-decoration: none;
 }
-.borderN{
+.borderN {
   border: none;
 }
 .border {
@@ -193,26 +199,33 @@ a{
   box-shadow: 20px 20px 100px rgba(0, 153, 255);
 }
 
-.posAbs{
+.opacity0{
+  opacity: 0;
+}
+.opacity1{
+  opacity: 1;
+}
+
+.posAbs {
   position: absolute;
 }
-.posRel{
+.posRel {
   position: relative;
 }
 .posFix {
   position: fixed;
 }
-.z-100{
+.z-100 {
   z-index: 100;
 }
-.z-0{
+.z-0 {
   z-index: 0;
 }
-.right0{
+.right0 {
   right: 30px;
   bottom: 30px;
 }
-.header{
+.header {
   height: 100vh;
   padding-top: 150px;
 }
@@ -226,25 +239,25 @@ a{
   object-fit: cover;
 }
 
-.bgNone{
+.bgNone {
   background-color: transparent;
 }
-.bgRed{
+.bgRed {
   background-color: red;
 }
-.bgGreen{
+.bgGreen {
   background-color: green;
 }
-.bgBlue{
+.bgBlue {
   background-color: blue;
 }
-.bgWhite{
+.bgWhite {
   background-color: white;
 }
-.bgBlack{
+.bgBlack {
   background-color: black;
 }
-.marginT20px{
+.marginT20px {
   margin-top: 20px;
 }
 
@@ -267,15 +280,18 @@ a{
   text-decoration: none;
 }
 
+.skill-card{
+  background-color: red;
+}
 
-@media (min-width: 768px) and (max-width: 1023px ) {
-  .Profil{
+@media (min-width: 768px) and (max-width: 1023px) {
+  .Profil {
     width: 300px;
     height: 300px;
   }
 }
 @media (max-width: 767px) {
-  .Profil{
+  .Profil {
     width: 200px;
     height: 200px;
   }

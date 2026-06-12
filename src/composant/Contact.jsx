@@ -1,11 +1,12 @@
-// import React from "react";
+import React from "react";
+import { FaEnvelope } from "react-icons/fa6";
 
 function Contact() {
   return (
     <div className="w100prc bgBlack">
       <div>
         <a href="mailto:andrianjafyfifaliana@gmail.com" target="_blank">
-          E-mail
+          <FaEnvelope/>
         </a>
       </div>
 

@@ -216,11 +216,18 @@ a {
   border-radius: 15px;
 }
 
+.right0 {
+  right: 20px;
+  bottom: 30px;
+}
 .opacity0{
   opacity: 0;
 }
 .opacity1{
   opacity: 1;
+}
+.backButtom{
+  font-size: 30px;
 }
 
 .posAbs {
@@ -237,10 +244,6 @@ a {
 }
 .z-0 {
   z-index: 0;
-}
-.right0 {
-  right: 30px;
-  bottom: 30px;
 }
 .header {
   height: 100vh;
@@ -349,9 +352,6 @@ a {
   justify-content: start;
 }
 
-.backButtom{
-  font-size: 30px;
-}
 
 @media (min-width: 768px) and (max-width: 1023px) {
   .Profil {

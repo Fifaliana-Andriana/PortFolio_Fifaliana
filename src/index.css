@@ -116,6 +116,9 @@ code {
 .w5cm{
   width: 5cm;
 }
+.w20prc {
+  width: 20%;
+}
 .w25prc {
   width: 25%;
 }
@@ -127,6 +130,9 @@ code {
 }
 .w100prc {
   width: 100%;
+}
+.h15cm{
+  height: 1.5cm;
 }
 
 .mBottom{
@@ -141,6 +147,13 @@ nav {
 
 a {
   color: white;
+}
+
+.white{
+  color: white;
+}
+.black{
+  color: black;
 }
 
 .displayB {
@@ -199,6 +212,10 @@ a {
   box-shadow: 20px 20px 100px rgba(0, 153, 255);
 }
 
+.radius15px{
+  border-radius: 15px;
+}
+
 .opacity0{
   opacity: 0;
 }
@@ -251,6 +268,9 @@ a {
 .bgBlue {
   background-color: blue;
 }
+.bgSkyblue{
+  background: skyblue;
+}
 .bgWhite {
   background-color: white;
 }
@@ -280,8 +300,37 @@ a {
   text-decoration: none;
 }
 
-.skill-card{
-  background-color: red;
+.skill-card > i{
+  /* background: red; */
+  width: 25%;
+}
+.skill-card > p{
+  /* background: green; */
+  width: 80%;
+}
+
+.containerFirst{
+  display: flex;
+  justify-content: space-evenly;
+}
+.containerSecond{
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+}
+.containerThird{
+  margin: 10px;
+  color: black;
+  background-color: skyblue;
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  height: 250px;
+  border-radius: 15px;
+}
+.containerThird>p{
+  font-weight: bolder;
+  text-decoration: underline;
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -289,10 +338,38 @@ a {
     width: 300px;
     height: 300px;
   }
+.containerFirst{
+  display: flex;
+  flex-direction: column;
+}
+.containerSecond{
+  margin-bottom: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
 }
 @media (max-width: 767px) {
   .Profil {
     width: 200px;
     height: 200px;
   }
+  /* .container{
+    display: flex;
+  } */
+  .containerFirst{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.containerSecond{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.containerThird{
+  width: 70%;
+}
 }

@@ -25,7 +25,10 @@ function App() {
   return (
     <div>
       <div className="posFix z-100 right0">
-        <a href="#Home" className={show ? "opacity1" : "opacity0"}>
+        <a
+          href="#Home"
+          className={show ? "opacity1 black backButtom" : "opacity0"}
+        >
           <FaCircleArrowUp />
         </a>
       </div>

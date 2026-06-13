@@ -233,7 +233,7 @@ a {
   position: fixed;
 }
 .z-100 {
-  z-index: 100;
+  z-index: 1000;
 }
 .z-0 {
   z-index: 0;
@@ -300,15 +300,6 @@ a {
   text-decoration: none;
 }
 
-.skill-card > i{
-  /* background: red; */
-  width: 25%;
-}
-.skill-card > p{
-  /* background: green; */
-  width: 80%;
-}
-
 .containerFirst{
   display: flex;
   justify-content: space-evenly;
@@ -324,13 +315,38 @@ a {
   background-color: skyblue;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 45%;
   height: 250px;
   border-radius: 15px;
+  transition: 1s;
 }
+.containerThird:hover{
+  transform: scale(1.1);
+  box-shadow: 20px 20px 100px skyblue;
+}
+
 .containerThird>p{
   font-weight: bolder;
   text-decoration: underline;
+}
+
+.skill-card{
+  height: 90%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.skill-card>i{
+  width: 30%;
+  display: flex;
+  justify-content: end;
+}
+.skill-card>p{
+  width: 60%;
+  display: flex;
+  justify-content: start;
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -367,9 +383,9 @@ a {
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
 }
 .containerThird{
-  width: 70%;
+  width: 75%;
 }
 }

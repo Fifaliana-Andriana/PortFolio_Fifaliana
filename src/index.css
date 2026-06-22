@@ -146,6 +146,7 @@ nav {
   width: 200vh;
   height: 2.5cm;
   backdrop-filter: blur(30px);
+  color: white;
 }
 
 a {

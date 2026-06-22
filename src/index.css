@@ -136,7 +136,10 @@ code {
 }
 
 .mBottom{
-  margin-bottom: 10px;
+  margin-bottom: 30px;
+}
+.pBottom{
+  padding-bottom: 10px;
 }
 
 nav {
@@ -228,6 +231,7 @@ a {
 }
 .backButtom{
   font-size: 40px;
+  color: white;
 }
 
 .posAbs {
@@ -304,6 +308,7 @@ a {
 }
 
 .containerFirst{
+  width: 100%;
   display: flex;
   justify-content: space-evenly;
 }
@@ -327,7 +332,7 @@ a {
 }
 .containerThird:hover{
   transform: scale(1.1);
-  box-shadow: 20px 20px 100px skyblue;
+  box-shadow: 0px 20px 50px black;
 }
 
 .containerThird>p{
@@ -370,6 +375,9 @@ a {
 }
 }
 @media (max-width: 767px) {
+  .fontS{
+    font-size: 85%;
+  }
   .Profil {
     width: 200px;
     height: 200px;

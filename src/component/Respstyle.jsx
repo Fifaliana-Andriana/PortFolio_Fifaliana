@@ -36,13 +36,13 @@ function Respstyle() {
         <>
           <div className="displayF justifyCE w100prc posRel">
             <button
-              className="bgNone borderN posFixb displayF alignIC"
+              className="bgNone borderN posFixb displayF alignIC colorWhite"
               onClick={() => setOpenMenu(!openMenu)}
             >
               {openMenu ? <FaXmark size={32} /> : <FaBars size={32} />}
             </button>
           </div>
-          
+
           {openMenu && (
             <ul className="mobileMenu">
               {menus.map((menu, index) => (

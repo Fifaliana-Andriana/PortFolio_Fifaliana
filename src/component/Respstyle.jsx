@@ -34,7 +34,7 @@ function Respstyle() {
     <div className="w100prc displayF alignIC">
       {isMobile ? (
         <>
-          <div className="displayF justifyCE w100prc posRel">
+          <div className="displayF justifyCE w100prc posRel colorWhite">
             <button
               className="bgNone borderN posFixb displayF alignIC colorWhite"
               onClick={() => setOpenMenu(!openMenu)}

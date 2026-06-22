@@ -377,6 +377,7 @@ a {
 @media (max-width: 767px) {
   .fontS{
     font-size: 165%;
+    color: white;
   }
   .Profil {
     width: 200px;
